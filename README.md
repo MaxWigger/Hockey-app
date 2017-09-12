@@ -1,4 +1,9 @@
 # Hockey-app
 Inital setuptests with visual studio code
 
-`Test auf featureBranch xD`
+# Commands used to create the app
+
+```sh
+npm install -g @angular/cli
+ng new Hockey-app --style less
+```
