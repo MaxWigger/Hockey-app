@@ -12,8 +12,7 @@ nav.navbar.navbar-inverse
     #bh-navbar-collapse-1.collapse.navbar-collapse
       ul.nav.navbar-nav
         li
-          a(routerlink='/lineup', routerlinkactive='active') Team line-up
-          a(routerlink='/addresses', routerlinkactive='active') Adresses
+          a(routerLink='/teamlineup', routerLinkActive='active') Team line-up
+          a(routerLink='/addresses', routerLinkActive='active') Adresses
 .container-fluid
-  //-router-outlet
-  h1 Test teste test
+  router-outlet

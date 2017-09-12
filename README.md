@@ -6,7 +6,7 @@ Inital setuptests with visual studio code
 ```sh
 npm install -g @angular/cli
 npm install -g pug pug-cli
-ng new Hockey-app --style less
+ng new Hockey-app --style less --routing
 npm install bootstrap jquery --save
 ```
 
@@ -18,4 +18,9 @@ pug -w src --pretty
 In bash two:
 ```sh
 ng serve
+```
+
+```sh
+ng g module team-lineup --routing
+ng g component team-lineup team-lineup/team-lineup
 ```
