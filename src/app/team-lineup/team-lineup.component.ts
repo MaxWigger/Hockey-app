@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Member } from '../model/member';
 
 @Component({
   selector: 'app-team-lineup',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamLineupComponent implements OnInit {
 
-  constructor() { }
+  members: Member[] = [];
+
+  constructor() {
+  }
 
   ngOnInit() {
+    this.members = [
+      new Member("Max"),
+      new Member("Michael"),
+    ]
   }
 
 }
